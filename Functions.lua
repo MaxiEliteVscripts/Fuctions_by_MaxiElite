@@ -1,22 +1,12 @@
-function infiniteyield()
+function Admin()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end
 
-function uncTest()
+function Test()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/main/UNCCheckEnv.lua", true))()
 end
 
-local old_identify
-old_identify = hookfunction(identifyexecutor, function()
-    return "ARC", "1.0.0"
-end)
-
-local old_getname
-old_getname = hookfunction(getexecutorname, function()
-    return "ARC"
-end)
-
-function OwlHub()
+function Hub1()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 end
 
